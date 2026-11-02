@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0a12"><title>SKINVAULT — Gaming Marketplace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline">WELCOME TO THE VAULT <span>✦</span> GAMING CULTURE • GEAR • STYLE</div>
+  <header class="header">
+    <a class="brand" href="#"><span class="brand-mark">S</span><span>SKIN<span class="purple">VAULT</span><small>THE PLAYER MARKET</small></span></a>
+    <div class="search"><span>⌕</span><input id="searchInput" placeholder="Search products, gear and more..." aria-label="Search products"><kbd>⌘ K</kbd></div>
+    <nav class="head-actions"><a href="#categories">Explore</a><a href="#trust">How it works</a><button class="login" id="loginBtn">Log in</button><button class="basket-btn" id="basketOpen">Bag <span id="basketCount">0</span></button></nav>
+    <button class="mobile-menu" id="mobileMenu">☰</button>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy"><div class="eyebrow"><i></i> LEVEL UP YOUR SETUP</div><h1>YOUR NEXT<br><em>LOADOUT</em><br>STARTS HERE.</h1>
+        <p>Discover standout gaming gear, player-inspired streetwear and accessories picked for your world.</p>
+        <a class="primary-btn" href="#market">Explore the marketplace <b>↗</b></a>
+        <div class="hero-stats"><div><strong>CURATED</strong><small>Gear & culture</small></div><div><strong>UK PRICING</strong><small>Prices in GBP</small></div><div><strong>PLAYER FIRST</strong><small>Made for gamers</small></div></div>
+      </div>
+      <div class="hero-art"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="hero-image"></div><div class="float-tag tag-top">✦ THE VAULT EDIT</div><div class="float-tag tag-bottom"><span class="pulse"></span> FRESH DROPS <b>01 / 06</b></div><div class="hero-stamp">SV<br><small>EST. 2025</small></div></div>
+    </section>
+    <section class="category-strip" id="categories">
+      <div class="section-kicker">BROWSE THE VAULT</div>
+      <div class="categories">
+        <button class="category active" data-category="All"><span>✦</span> All finds</button>
+        <button class="category" data-category="Apparel"><span>◈</span> Apparel</button>
+        <button class="category" data-category="Setup gear"><span>⌘</span> Setup gear</button>
+        <button class="category" data-category="Accessories"><span>✧</span> Accessories</button>
+        <button class="category" data-category="Art"><span>▧</span> Art & prints</button>
+      </div>
+    </section>
+    <section class="market" id="market">
+      <div class="market-heading"><div><div class="section-kicker">THE COMMUNITY PICKS</div><h2>Explore the <span>marketplace.</span></h2><p>Fresh finds for your desk, your fit and your next session.</p></div>
+        <div class="sort-wrap"><label for="sortSelect">SORT BY</label><select id="sortSelect"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></div>
+      </div>
+      <div class="filter-row"><div class="result-count" id="resultCount">Showing 6 finds</div><div class="quick-filters"><button class="filter-chip selected" data-filter="All">All items</button><button class="filter-chip" data-filter="Under £30">Under £30</button><button class="filter-chip" data-filter="Popular">Popular</button></div></div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-id="hoodie"><div class="product-photo photo-hoodie"><span class="product-badge">VAULT PICK</span><button class="heart" aria-label="Save item">♡</button></div><div class="product-meta"><span>APPAREL</span><span>★ 4.9</span></div><h3>Vault Oversized Hoodie</h3><div class="product-bottom"><strong>£48.99</strong><button class="add-btn">＋ Add to bag</button></div></article>
+        <article class="product-card" data-id="mousepad"><div class="product-photo photo-mat"><span class="product-badge hot">TRENDING</span><button class="heart" aria-label="Save item">♡</button></div><div class="product-meta"><span>SETUP GEAR</span><span>★ 4.8</span></div><h3>Neon Grid Desk Mat</h3><div class="product-bottom"><strong>£24.99</strong><button class="add-btn">＋ Add to bag</button></div></article>
+        <article class="product-card" data-id="controller"><div class="product-photo photo-controller"><button class="heart" aria-label="Save item">♡</button></div><div class="product-meta"><span>ACCESSORIES</span><span>★ 4.9</span></div><h3>Pro Wireless Controller</h3><div class="product-bottom"><strong>£69.99</strong><button class="add-btn">＋ Add to bag</button></div></article>
+        <article class="product-card" data-id="poster"><div class="product-photo photo-poster"><span class="product-badge">NEW DROP</span><button class="heart" aria-label="Save item">♡</button></div><div class="product-meta"><span>ART & PRINTS</span><span>★ 4.7</span></div><h3>Victory Royale Art Print</h3><div class="product-bottom"><strong>£15.99</strong><button class="add-btn">＋ Add to bag</button></div></article>
+        <article class="product-card" data-id="tee"><div class="product-photo photo-tee"><button class="heart" aria-label="Save item">♡</button></div><div class="product-meta"><span>APPAREL</span><span>★ 4.8</span></div><h3>Drop Zone Graphic Tee</h3><div class="product-bottom"><strong>£22.99</strong><button class="add-btn">＋ Add to bag</button></div></article>
+        <article class="product-card" data-id="headset"><div class="product-photo photo-headset"><span class="product-badge hot">PLAYER FAVOURITE</span><button class="heart" aria-label="Save item">♡</button></div><div class="product-meta"><span>SETUP GEAR</span><span>★ 4.9</span></div><h3>Studio Gaming Headset</h3><div class="product-bottom"><strong>£54.99</strong><button class="add-btn">＋ Add to bag</button></div></article>
+      </div>
+      <div class="empty-state" id="emptyState" hidden>No items match that search. Try another keyword.</div>
+    </section>
+
+    <section class="collection-showcase" id="collection-showcase">
+      <div class="showcase-heading">
+        <div><div class="section-kicker">COMMUNITY COLLECTION</div><h2>Inside the <span>vault.</span></h2>
+          <p>A visual showcase of a 156-skin Fortnite locker collection.</p></div>
+        <span class="showcase-count"><strong>156</strong><small>SKINS SHOWN</small></span>
+      </div>
+      <a class="showcase-image-link" href="assets/collection-showcase.png" target="_blank" rel="noopener" aria-label="Open full collection showcase image">
+        <img src="assets/collection-showcase.png" alt="Fortnite locker collection showcase showing 156 skins" loading="lazy">
+        <span class="showcase-overlay">VIEW FULL COLLECTION ↗</span>
+      </a>
+      <p class="showcase-disclaimer">Showcase only — Fortnite cosmetics are account-bound and are not listed for individual sale. SKINVAULT is independent and is not affiliated with Epic Games.</p>
+    </section>
+    <section class="banner" id="trust"><div class="banner-icon">✦</div><div><div class="section-kicker">WELCOME TO YOUR NEW FAVOURITE SPOT</div><h2>Good gear. Great games.<br><span>Better community.</span></h2></div><a href="#market" class="outline-btn">Find your next pick ↗</a></section>
+    <section class="trust-row"><div><b>✧</b><span><strong>Curated finds</strong><small>Thoughtful picks for players</small></span></div><div><b>⌁</b><span><strong>Secure checkout</strong><small>Protected payment flow</small></span></div><div><b>◈</b><span><strong>UK-friendly</strong><small>Prices shown in GBP</small></span></div></section>
+  </main>
+  <footer><a class="brand" href="#"><span class="brand-mark">S</span><span>SKIN<span class="purple">VAULT</span><small>THE PLAYER MARKET</small></span></a><p>Independent gaming-inspired gear and culture. Not affiliated with or endorsed by Epic Games or any game publisher.</p><span>© 2025 SKINVAULT</span></footer>
+  <div class="drawer-backdrop" id="backdrop"></div><aside class="basket-drawer" id="basketDrawer"><div class="drawer-head"><div><div class="section-kicker">YOUR PICKS</div><h2>Your bag <span id="drawerCount">(0)</span></h2></div><button id="basketClose" class="close-btn">×</button></div><div id="basketItems" class="basket-items"><div class="basket-empty">Your bag is waiting for its first pick.</div></div><div class="drawer-foot"><div class="subtotal"><span>Subtotal</span><strong id="subtotal">£0.00</strong></div><small>Shipping and taxes calculated at checkout.</small><button class="checkout-btn" id="checkoutBtn">Continue to checkout <b>↗</b></button><p class="checkout-note" id="checkoutNote">Secure checkout powered by Stripe when configured.</p></div></aside>
+  <div class="toast" id="toast">Added to your bag ✦</div>
+  <script src="app.js"></script>
+</body></html>

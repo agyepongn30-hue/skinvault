@@ -1,0 +1,48 @@
+SKINVAULT MARKETPLACE — START HERE
+
+WHAT THIS IS
+A dark, gaming-marketplace-inspired storefront with SKINVAULT branding. It includes:
+- Search, category filters, quick filters and sorting
+- Product cards, favourites and a working demo basket
+- A 156-skin locker collection image showcase (view full-size by clicking it)
+- GBP pricing and a Stripe Checkout server endpoint
+- Responsive desktop and mobile layouts
+
+The listings in this starter are gaming-inspired physical merchandise and accessories.
+It is not affiliated with Eldorado.gg, Epic Games, Fortnite, or any game publisher.
+Do not list account-bound Fortnite cosmetics, accounts, credentials, or items that cannot
+lawfully or officially be transferred. Replace the sample products with goods you own
+or are authorised to sell, and use accurate descriptions, stock and delivery terms.
+
+PREVIEW
+For a quick visual preview, unzip the file and open public/index.html in a browser.
+Search, filters and the basket work in this static preview. Checkout requires the server.
+
+RUN THE WEBSITE LOCALLY
+1. Install Node.js (LTS).
+2. Open a terminal in this folder.
+3. Run: npm install
+4. The ZIP already includes a .env file with the admin password configured.
+   Do not overwrite it with .env.example.
+5. Run: npm start
+6. Open http://localhost:3000
+7. Open http://localhost:3000/admin.html to manage products.
+
+PAYMENTS
+- Stripe test mode only until you deliberately switch to live keys.
+- Set SITE_URL to your deployed HTTPS website address before going live.
+- The sample server creates Stripe Checkout sessions using a fixed server-side catalogue.
+- Add webhook handling, order persistence, stock management, tax/shipping rules, refunds,
+  privacy/terms pages and security review before accepting real orders.
+- PayPal, customer login, seller accounts, messaging, reviews and admin tools are not
+  connected in this starter.
+
+PUBLISHING
+This ZIP is a website starter, not a live hosted website. Deploy the Node app to a host
+that supports Node.js, set environment variables there, connect your domain and enable
+Stripe live mode only after testing.
+\n\nEDIT YOUR STORE\nStart the Node server, then visit http://localhost:3000/admin.html. Set ADMIN_PASSWORD in .env to a strong private password and restart the server. Sign in to add, edit or delete product names, prices, categories and image URLs. Changes are saved in products.json and shown to all store visitors. Use HTTPS when deployed and keep your admin password private.\n
+ADMIN LOGIN
+Username: admin
+Password: SVault-7Kp!29mQx#4R
+Keep these details private. Change ADMIN_PASSWORD in .env if you want a different password.

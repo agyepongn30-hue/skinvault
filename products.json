@@ -1,0 +1,45 @@
+[
+  {
+    "id": "hoodie",
+    "name": "300 skin polo prodigy fa",
+    "price": 80,
+    "category": "Accessories",
+    "popular": true,
+    "image": "https://image.fnbr.co/outfit/6363ecb7769951758137983c/featured.png"
+  },
+  {
+    "id": "mousepad",
+    "name": "Neon Grid Desk Mat",
+    "price": 24.99,
+    "category": "Setup gear",
+    "popular": true
+  },
+  {
+    "id": "controller",
+    "name": "Pro Wireless Controller",
+    "price": 69.99,
+    "category": "Accessories",
+    "popular": true
+  },
+  {
+    "id": "poster",
+    "name": "Victory Royale Art Print",
+    "price": 15.99,
+    "category": "Art",
+    "popular": false
+  },
+  {
+    "id": "tee",
+    "name": "Drop Zone Graphic Tee",
+    "price": 22.99,
+    "category": "Apparel",
+    "popular": false
+  },
+  {
+    "id": "headset",
+    "name": "Studio Gaming Headset",
+    "price": 54.99,
+    "category": "Setup gear",
+    "popular": true
+  }
+]
